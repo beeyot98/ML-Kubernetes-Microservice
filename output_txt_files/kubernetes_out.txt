@@ -1,3 +1,13 @@
+make_predictions.sh output:
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
+
+run_kubernetes.sh output:
+
 NAME                       READY   STATUS    RESTARTS   AGE
 ml-micro-f649ff7fc-7hr5s   1/1     Running   1          3h51m
 Forwarding from 0.0.0.0:8000 -> 80
