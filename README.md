@@ -49,3 +49,12 @@ source .devops/bin/activate
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
+
+### Repository Files
+* Dockerfile creates a working directory, install dependencies, exposes port 80 and runs the application at container launch
+* run_docker.sh contains steps that build, list and runs the image
+* upload_docker.sh contains steps that upload the image to Docker Hub on the personal Docker ID
+* run_kubernetes.sh contains steps run a docker image with kubernetes, lists the kubernetes pod, and forwards the container port to a host
+* docker_out.txt contains saved log outputs of the application after prediction is made
+* kubernetes_out.txt contains output after prediction is made
+* config.yml inside the .cicrcleci folder, contains steps that check the project for errors
