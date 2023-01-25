@@ -5,7 +5,7 @@
 
 # Step 1:
 # Create dockerpath
-# dockerpath= biyyot/ml-micro
+dockerpath= biyyot/ml-micro
 
 # Step 2:  
 # Authenticate & tag
