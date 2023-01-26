@@ -52,11 +52,11 @@ source .devops/bin/activate
 docker --version
 
 * Setup and Configure Kubernetes locally 
-1. Download a virtual machine
+1. Download a virtual machine.
 For Mac OS:
 brew cask install virtualbox
 
-2. Install Minikube. Thorough instructions here at https://kubernetes.io/docs/tasks/tools/install-minikube/:
+2. Install Minikube. Thorough instructions here at https://kubernetes.io/docs/tasks/tools/install-minikube/.
 For Mac OS:
 brew cask install minikube
 
