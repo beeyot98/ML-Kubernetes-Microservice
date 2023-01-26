@@ -53,11 +53,13 @@ docker --version
 
 * Setup and Configure Kubernetes locally 
 1. Download a virtual machine
-# For Mac OS:
+For Mac OS:
 brew cask install virtualbox
+
 2. Install Minikube. Thorough instructions here at https://kubernetes.io/docs/tasks/tools/install-minikube/:
-# For Mac OS:
+For Mac OS:
 brew cask install minikube
+
 3. To start a local cluster, type the terminal command:
 minikube start
 4. You can check that you have one cluster running by typing:
