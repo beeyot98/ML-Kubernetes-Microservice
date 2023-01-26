@@ -45,21 +45,21 @@ source .devops/bin/activate
 1. Create a free docker account, choose a unique username and link your email to a docker account. The username is the unique docker ID.
 2. Go to Docker's installation site on https://docs.docker.com/v17.12/install/, and choose the Community Edition (CE) for your operating system to install Docker's latest version (recommended).
 3. Verify the installation by printing docker version on your terminal by typing:
-docker --version
+`docker --version1
 
 * Setup and Configure Kubernetes locally 
 1. Download a virtual machine.
 For Mac OS:
-brew cask install virtualbox
+`brew cask install virtualbox`
 
 2. Install Minikube. Thorough instructions here at https://kubernetes.io/docs/tasks/tools/install-minikube/.
 For Mac OS:
-brew cask install minikube
+`brew cask install minikube`
 
 3. To start a local cluster, type the terminal command:
-minikube start
+`minikube start`
 4. You can check that you have one cluster running by typing:
-kubectl config view
+`kubectl config view`
 
 * Create Flask app in Container
 1. Build the docker image from the Dockerfile; use the optional --tag parameter as described in the build documentation.
@@ -68,8 +68,8 @@ kubectl config view
 
 * Run via kubectl
 1. Define a dockerpath which will be “/path”, this should be the same name as your uploaded repository
-2. Run the docker container with kubectl create deploy; you’ll have to specify the container and the port
-3. List the kubernetes pods with kubectl get pods
+2. Run the docker container with `kubectl create deploy`; you’ll have to specify the container and the port
+3. List the kubernetes pods with `kubectl get pods`
 4. Forward the container port to a host port, using the same ports as before
 
 
