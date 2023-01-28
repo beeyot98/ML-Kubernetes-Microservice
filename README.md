@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-In this project, you I applied the skills acquired to operationalize a Machine Learning Microservice API. 
+In this project, I applied the skills acquired to operationalize a Machine Learning Microservice API. 
 
 Given is a pre-trained, `sklearn` model that has been trained to predict housing prices in Boston according to several features, such as average rooms in a home and data about highway access, teacher-to-pupil ratios, and so on.More about the data, which was initially taken from Kaggle, can be found on [the data source site](https://www.kaggle.com/c/boston-housing). This project showcases my ability to operationalize a Python flask app—in the file `app.py`—that serves out predictions (inference) about housing prices through API calls. This project could be extended to any pre-trained machine learning model, such as those for image recognition and data labeling.
 
